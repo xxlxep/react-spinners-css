@@ -1,1 +1,2 @@
-console.log('dsfdsf +    fdsf')
+const func = () => {}
+export default func

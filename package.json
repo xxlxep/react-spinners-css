@@ -4,6 +4,8 @@
   "description": "React css-only spinners",
   "main": "index.js",
   "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "rollup -c",
     "lint": "eslint '**/*.js",
     "lint:fix": "pretter-eslint '**/*.js' --write"
   },
@@ -42,7 +44,10 @@
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-standard": "^4.0.0",
     "prettier-eslint": "^8.8.2",
-    "prettier-eslint-cli": "^4.7.1"
+    "prettier-eslint-cli": "^4.7.1",
+    "rimraf": "^2.6.3",
+    "rollup": "^1.14.2",
+    "rollup-plugin-node-resolve": "^5.0.1"
   },
   "dependencies": {
     "husky": "^2.3.0",
