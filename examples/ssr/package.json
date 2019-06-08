@@ -1,0 +1,16 @@
+{
+  "name": "ssr",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-spinners-css": "file:../..",
+    "rimraf": "^2.6.3"
+  }
+}
