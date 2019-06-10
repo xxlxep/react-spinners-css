@@ -3,7 +3,7 @@ import styles from './styles.css';
 
 const Ripple = props => (
   <>
-    <style>{styles}</style>
+    <style>{`${styles}`}</style>
     <div className="lds-css ng-scope">
       <div style={{ width: '100%', height: '100%' }} className="lds-ripple">
         <div />
